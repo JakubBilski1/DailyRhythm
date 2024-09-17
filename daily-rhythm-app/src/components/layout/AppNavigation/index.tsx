@@ -40,9 +40,9 @@ const AppNavigation = () => {
       />
       <NavigationMenu>
         <NavigationMenuList>
-          {router.map(({ link, name }) => {
+          {router.map(({ link, name }, index) => {
             return (
-              <NavigationMenuItem>
+              <NavigationMenuItem key={index}>
                 <Link href={link} passHref legacyBehavior>
                   <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                     {name}
