@@ -13,8 +13,8 @@ export const router: Router[] = [
         name: 'Events'
     },
     {
-        link: '/plans',
-        name: 'Plans'
+        link: '/activities',
+        name: 'Activities'
     },
     {
         link: '/about',
